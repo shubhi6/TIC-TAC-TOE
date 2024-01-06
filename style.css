@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #5190c3;
+    color: #fdfffc;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    color: #060606;
+}
+
+
+input{
+    width: 80px;
+    height: 70px;
+    font-size: 45px;
+    margin: 20px;
+    background-color: white;
+    color: rgb(16, 16, 17);
+    border-style: none;
+    border-radius: 70px;
+    border: 2px solid rgb(12, 5, 5) ;
+
+}
+
+
+.btn:hover{
+    background-color:rgb(195, 253, 170);
+    cursor: pointer;
+}
