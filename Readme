@@ -1,4 +1,6 @@
-TIC TAC TOE  :  Tic Tac Toe is a classic paper-and-pencil game played by two players, usually known as X and O, who take turns marking spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. If the entire grid is filled and no player has achieved the winning condition, the game is a draw.
+TIC TAC TOE  :  Tic Tac Toe is a classic paper-and-pencil game played by two players, usually known as X and O, who take turns marking spaces in a 3x3 grid.
+The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+If the entire grid is filled and no player has achieved the winning condition, the game is a draw.
 
 Here are the basic rules for playing Tic Tac Toe:
 
@@ -7,10 +9,16 @@ Here are the basic rules for playing Tic Tac Toe:
 * The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.
 * If the entire grid is filled and no player has won, the game is a draw.
 * Players cannot overwrite each other's moves, and each move must be in an empty cell.
-* The strategy for winning or forcing a draw in Tic Tac Toe involves making moves that block your opponent's potential winning moves while creating opportunities for your own. The game has a limited number of possible outcomes, and with optimal play from both players, it should end in a draw.
+* The strategy for winning or forcing a draw in Tic Tac Toe involves making moves that block your opponent's potential winning moves while creating opportunities for your own.
+The game has a limited number of possible outcomes, and with optimal play from both players, it should end in a draw.
 
-Tic Tac Toe is often used as a simple example in artificial intelligence and game theory studies due to its straightforward rules and predictable outcomes. Many variations and adaptations of the game exist, including larger grid sizes, different win conditions, and electronic versions.
+Tic Tac Toe is often used as a simple example in artificial intelligence and game theory studies due to its straightforward rules and predictable outcomes.
+Many variations and adaptations of the game exist, including larger grid sizes, different win conditions, and electronic versions.
 Here we have taken different win conditions as:
+  [0, 1, 2],   [0, 3, 6],
+  [2, 5, 8],   [6, 7, 8],
+  [3, 4, 5],   [1, 4, 7],
+  [0, 4, 8],   [2, 4, 6].
 
 
 
